@@ -105,3 +105,9 @@ header{
 .navlinks a:hover::after{
     width: 100%;
 }
+
+.hero{
+    background-color: #EADDCA;
+    width: 100%;
+    height: 100vh;
+}
