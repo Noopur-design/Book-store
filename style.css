@@ -11,6 +11,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   background: rgb(255, 255, 255);
+  background-color:#d19d3d;
 }
 
 header {
@@ -174,7 +175,7 @@ header {
 
 .card {
   width: 200px; /* Set the width for each card */
-  height: 250px; /* Set the height for the cards */
+  height: 300px; /* Set the height for the cards */
   background-color: #fff; /* White background for cards */
   border: 1px solid #ccc; /* Light border */
   border-radius: 10px; /* Rounded corners */
@@ -212,3 +213,48 @@ header {
 }
 
 
+.novel-container {
+width: 100%;
+  gap: 20px;
+}
+
+.novel-card {
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+.novel-card h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); 
+  gap: 10px
+}
+
+.novel {
+  background-color: #e6cd8c;
+  padding: 5px 2px ;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.novel img {
+  width:130px;
+  height:200px;
+  border-radius: 4px;
+}
+
+.novel p {
+  margin-top: 5px;
+  text-align: center;
+  text-transform:capitalize;
+}
+
+.novel a{
+  text-decoration: none;
+  color: black;
+}
