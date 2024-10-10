@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="/cart.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="/images/favicon.png" alt="Logo" style="width: 50px; height: 50px" />
+        </div>
+        <nav class="main-icon">
+            <div class="login"><i class="ri-user-line"></i></div>
+            <div class="cart"><i class="ri-shopping-cart-fill"></i></div>
+            <button class="btn"><i class="ri-menu-4-fill"></i></button>
+        </nav>
+
+        <div class="elements">
+            <ul class="navlinks">
+                <li><a href="index.html">New Arrivals</a></li>
+                <li><a href="/">Library</a></li>
+                <li><a href="/">Collection</a></li>
+            </ul>
+            <i class="ri-close-line"></i>
+        </div>
+    </header> 
+
+    <div class="book-heading">
+        <h1></h1>
+    </div>
+
+    <div class="cart">
+     
+
+        <div class="novel-list">
+            <!-- Repeat this block for each book -->
+            <div class="novel">
+                <img src="/images/card-6.webp" alt="The Power of Subconscious Mind" />
+                <p>The Power of Subconscious Mind</p>
+                <p class="price">$10.99</p> <!-- Price added -->
+                <input type="number" min="1" value="1" class="quantity" data-title="The Power of Subconscious Mind" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+            <div class="novel">
+                <img src="/images/card-2.webp" alt="You Only Live Once" />
+                <p>You Only Live Once</p>
+                <p class="price">$12.50</p> <!-- Price added -->
+                <input type="number" min="1" value="1" class="quantity" data-title="You Only Live Once" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+            <div class="novel">
+                <img src="/images/image3.jpg" alt="The Love Hypothesis" />
+                <p>The Love Hypothesis</p>
+                <p class="price">$11.25</p> <!-- Price added -->
+                <input type="number" min="1" value="1" class="quantity" data-title="The Love Hypothesis" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+            <div class="novel">
+                <img src="/images/image4.jpg" alt="It Starts With Us" />
+                <p>It Starts With Us</p>
+                <p class="price">$9.99</p> <!-- Price added -->
+                <input type="number" min="1" value="1" class="quantity" data-title="It Starts With Us" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+            <div class="novel">
+                <img src="/images/image5.jpg" alt="You Can" />
+                <p>You Can</p>
+                <p class="price">$8.50</p> <!-- Price added -->
+                <input type="number" min="1" value="1" class="quantity" data-title="You Can" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+            <div class="novel">
+                <img src="/images/image6.jpg" alt="Atomic Habits" />
+                <p>Atomic Habits</p>
+                <p class="price">$15.00</p> <!-- Price added -->
+                <input type="number" min="1" value="1" class="quantity" data-title="Atomic Habits" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+            <div class="novel">
+                <img src="/images/image7.jpg" alt="The 7 Habits of Highly Effective People" />
+                <p>The 7 Habits of Highly Effective People</p>
+                <p class="price">$14.99</p> <!-- Price added -->
+                <input type="number" min="1" value="1" class="quantity" data-title="The 7 Habits of Highly Effective People" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+
+            <!-- Add more books if needed -->
+            <div class="novel">
+                <img src="/images/image21.webp" alt="Learn, Don't Study" />
+                <p>Learn, Don't Study</p>
+                <input type="number" min="1" value="1" class="quantity" data-title="Learn, Don't Study" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+
+            <div class="novel">
+                <img src="/images/image22.jpg" alt="Siddhartha by Hermann Hesse" />
+                <p>Siddhartha by Hermann Hesse</p>
+                <input type="number" min="1" value="1" class="quantity" data-title="Siddhartha by Hermann Hesse" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+
+            <div class="novel">
+                <img src="/images/image23.jpg" alt="Life's Amazing Secrets" />
+                <p>Life's Amazing Secrets</p>
+                <input type="number" min="1" value="1" class="quantity" data-title="Life's Amazing Secrets" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+
+            <div class="novel">
+                <img src="/images/image24.jpg" alt="Think Straight" />
+                <p>Think Straight</p>
+                <input type="number" min="1" value="1" class="quantity" data-title="Think Straight" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+
+            <div class="novel">
+                <img src="/images/image25.webp" alt="The Psychology of Money" />
+                <p>The Psychology of Money</p>
+                <input type="number" min="1" value="1" class="quantity" data-title="The Psychology of Money" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+
+            <div class="novel">
+                <img src="/images/image26.jpg" alt="Let It Be Incomplete" />
+                <p>Let It Be Incomplete</p>
+                <input type="number" min="1" value="1" class="quantity" data-title="Let It Be Incomplete" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+
+            <div class="novel">
+                <img src="/images/image27.jpg" alt="Stop Overthinking" />
+                <p>Stop Overthinking</p>
+                <input type="number" min="1" value="1" class="quantity" data-title="Stop Overthinking" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+
+            <div class="novel">
+                <img src="/images/image28.jpg" alt="Unleash The Secret to Success" />
+                <p>Unleash The Secret to Success</p>
+                <input type="number" min="1" value="1" class="quantity" data-title="Unleash The Secret to Success" />
+                <button class="buyNowBtn" aria-label="Buy ${book.name}" data-title="${book.name}" data-price="${book.price}">Buy Now</button>
+            </div>
+        </div>
+
+
+         <!-- Notification Section -->
+    <div id="notification" style="display:none; background-color: #f0ad4e; color: white; padding: 10px; margin-top: 10px;"></div>
+
+        <!-- Total Section -->
+        <div class="total-section">
+            <h3>Total Books: <span id="totalBooks">0</span></h3>
+            <h3>Total Price: <span id="totalPrice">$0.00</span></h3> <!-- Total price added -->
+        </div>
+
+        <button id="orderOnWhatsApp">Place Order on WhatsApp</button>
+
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-about">
+            <h4>About Us</h4>
+            <p>We are passionate about connecting readers with the books they love. Discover new titles, reviews, and recommendations.</p>
+          </div>
+      
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul class="footerlink">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Library.html">Library</a></li>
+              <li><a href="collection.html">Collction</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+           <div class="contact-p">
+            <p>Email: <a href="mailto:info@bookstore.com">info@bookstore.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+            <p>Address: 123 Bookstore Ave, Literary City, 56789</p>
+           </div>
+          </div>
+      
+          <div class="footer-social">
+            <h4>Follow Us</h4>
+           <div class="icon-links">
+            <a href="#"><i class="ri-facebook-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+           </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2024 BookStore. All Rights Reserved.</p>
+        </div>
+      </footer>
+
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
